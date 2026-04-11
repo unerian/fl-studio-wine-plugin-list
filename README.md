@@ -7,7 +7,7 @@ I might change the rating system and other stuff later, didn't put too much thou
 
 (as a sidenote, this is just my experience. I have found wine to sometimes be inconsistent between different machines and distros. You should expect a similar experience as listed here, but your mileage may still vary.)
 
-This list is specifically for running plugins with FL studio, so **it might not accurately apply to other software** that also uses wine (such as yabridge).
+This list is specifically for running plugins with FL studio, so **it might not accurately apply to other software that also uses wine** (such as yabridge).
 
 The installers for the plugins can often be as big of an issue as the plugin itself. For example, a plugin might work perfectly, but the installer may be broken. This is why **you might get differing results depending on if you use the official installer vs unofficial installers, such as pirated ones**. 
 
