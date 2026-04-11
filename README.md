@@ -45,7 +45,7 @@ The installers for the plugins can often be as big of an issue as the plugin its
 
 ## WORKS PERFECTLY 
 
-| Recommendation | Testing | Name  | Plugin Version  |Notes |
+| Recommendation | Testing amount | Name  | Plugin Version  |Notes |
 |------------|----|------------------------|--------|-------|
 |     ✅    |     High  |Vital            |   1.5.5     |    Pre wine 11 versions cause GUI flickering. Use wine 11 or newer  |
 |     ✅|     High        |KHS Essentials Effects Pack            |   2.4.6     |    -  |
@@ -59,7 +59,7 @@ The installers for the plugins can often be as big of an issue as the plugin its
 
 ## MINOR VISUAL GLITCHES
 
-| Recommendation | Testing | Name | Plugin Version  |Notes |
+| Recommendation | Testing amount | Name | Plugin Version  |Notes |
 |------------|----|------------------------|--------|-------|
 |     ✅    |High    |All Valhalla Plugins            |-|    [Some weird visuals with drop down menus on some plugins](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/valhalla_dropdown.png?raw=true). Runs very stable generally.  |
 |     ✅    |High    |Xfer OTT            |   1.37     |    Plugin window FPS is definitely lower than 60fps. Still works reliably   |
@@ -68,12 +68,12 @@ The installers for the plugins can often be as big of an issue as the plugin its
 
 ## MAJOR VISUAL GLITCHES
 
-| Recommendation | Testing | Name | Plugin Version  |Notes |
+| Recommendation | Testing amount | Name | Plugin Version  |Notes |
 |------------|----|------------------------|--------|-------|
 |     ➖    |Low    |Arturia Analog Lab V            |5.12.2|  [Whole plugin GUI flashes and flickers when interacting with or moving the plugin window](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/analoglab.md). Enabling "Detached" in the top left drop down menu of the FL wrapper fixes most of these issues. All sounds/other functionality seems to work fine and the plugin feels usable.   |
 
 ## REQUIRES TWEAKING WINE OR OTHER TRICKS
-| Recommendation | Testing | Name | Plugin Version  |Notes |
+| Recommendation | Testing amount | Name | Plugin Version  |Notes |
 |------------|----|------------------------|--------|-------|
 |     ✅    |Low    |Oeksound Soothe2                    |1.1.2| Install mfc42 as a dependency if you get an error when launching the installer. Click the opengl checkbox in the settings to stop the plugin GUI from flashing |
 |     ➖    |Low    |Steinberg Hypersonic 2                    |2.0.0.600|   Plugin is 32bit -> [Requires changing a registry entry in wine](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/32bitfix.md) This plugin is very old and has instablility even on windows. Though funnily enough it seems to work better on wine |
@@ -81,13 +81,13 @@ The installers for the plugins can often be as big of an issue as the plugin its
 
 
 ## SLOW / VERY LAGGY
-| Recommendation | Testing | Name | Plugin Version  |Notes |
+| Recommendation | Testing amount | Name | Plugin Version  |Notes |
 |------------|----|------------------------|--------|-------|
 |  ➖   |   Low  |Roland Zenology                    |   2.02     |    Takes 20 seconds to open, and freezes FL studio for that whole time. Same for deleting the plugin, but for 5 seconds. Plugin text seems to not have anti-aliasing, and generally looks uglier than on windows. Scaling the window by dragging the border is broken, and instantly snaps to the smallest size. Seems to work fine otherwise.    |
 |  ❌    |  -  |Antares AutoTune                    |   Various     |    Every version I've tried is very laggy. Takes a long time to open (like 20 sec), and the GUI is extremely laggy to the point its unusable. The audio processing itself seems to work.    |
 
 ## UNSTABLE / UNRELIABLE / CRASHING
-| Recommendation | Testing | Name | Plugin Version  |Notes |
+| Recommendation | Testing amount | Name | Plugin Version  |Notes |
 |------------|----|------------------------|--------|-------|
 |     ➖   | High |Soundtoys Bundle                    |   -     | Older versions of these (🏴‍☠️) seem to be a bit unstable, and crash frequently. The up to date VST3 versions seem to be much more stable, so if you are going to install, install them. |
 |     ❌   | - |Xfer Serum 2                    |   2.0.23     |    Opening wavetable editor crashes FL. Wavetables, LFOs, Envelopes and filters have missing anti-aliasing and are laggy. Most other features work, but there is a general feeling of instability in the plugin.  |
