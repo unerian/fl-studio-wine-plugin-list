@@ -67,7 +67,7 @@ This list is specifically for running plugins with FL studio, so it might not ac
 |------------|----|------------------------|----------|--------|-------|
 |     ✅    |Low    |Soothe2            |Oeksound        |1.1.2| Install mfc42 as a dependency if you get an error when launching the installer. Click the opengl checkbox in the settings to stop the plugin GUI from flashing |
 |     ➖    |Low    |Hypersonic 2            |Steinberg        |2.0.0.600|   Plugin is 32bit -> [Requires changing a registry entry in wine](---) This plugin is very old and has instablility even on windows. Though funnily enough it seems to work better on wine |
-|     ❌    |Low    |Serum 1            |Xfer        |1.368|[Add dll override d2d1.dll (native) to stop FL from crashing when opening it](---). I do not recommend doing this though, because it breaks a huge amount of other plugins. So only if you really need serum and dont care about other plugins |
+|     ❌    |Low    |Serum 1            |Xfer        |1.368|[Add dll override d2d1.dll (native) to stop FL from crashing when opening it]([---](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/d2d1.png?raw=true)). I do not recommend doing this though, because it breaks a huge amount of other plugins. So only if you really need serum and dont care about other plugins |
 
 
 ## SLOW / VERY LAGGY
