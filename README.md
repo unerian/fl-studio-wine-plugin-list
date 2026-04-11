@@ -1,0 +1,87 @@
+# FL STUDIO WINE VST PLUGIN COMPATIBILITY LIST
+I though it would be useful to have this data in a single place instead of having to scour through forums and reddit.
+
+**Work in progress.** I might change the rating system and other stuff later, didn't put too much thought into it tbh.
+
+(as a sidenote, this is just my experience. I have found wine to sometimes be inconsistent between different machines and distros. You should expect a similar experience as listed here, but your mileage may still vary.)
+
+This list is specifically for running plugins with FL studio, so it might not accurately apply to other software that also uses wine (such as yabridge).
+
+**All plugins tested on (unless stated otherwise):**
+
+- Ubuntu 24.04.4 LTS x86_64
+- GNOME 46.0 Wayland
+
+- FL STUDIO 25.2.5 [5319]
+
+**Bottles settings:**
+- kron4ek-wine-11.6-staging-tkg-amd64
+- DXVK-2.7.1
+- vkd3d-proton-3.0
+- latencyflex-v0.1.1
+
+**Recommended:**
+
+- ✅ - Recommended
+
+- ➖ - Usable with caveats, read notes section
+
+- ❌ - Not Recommended
+
+**Testing:**
+- High - Tested extensively, This plugin has been a part of my daily rotation, and I have used it for long periods of time 
+
+- Medium - Tested for some time, but haven't put like 50+ hours of usage into it, so I cannot guarantee there isn't some rare instablility or bugs.
+
+- Low - Basically just first impressions.
+
+
+
+
+## WORKS PERFECTLY 
+
+| Recommendation | Testing | Name | Developer | Plugin Version  |Notes |
+|------------|----|------------------------|----------|--------|-------|
+|     ✅    |     High  |Vital            |Matt Tytel        |   1.5.5     |    Pre wine 11 versions cause GUI flickering. Use wine 11 or newer  |
+|     ✅|     High        |KHS Essentials Effects Pack            |Kilohearts        |   2.4.6     |    -  |
+|     ✅|     High        |Infiltrator 2            |Devious Machines        |   2.4.7        | -  |
+|     ✅|     High        |Spire            |Reveal Sound        |   1.5.19-x64     |    -  |
+|     ✅  | Medium   |MFreeFXBundle            |Melda        |   17.08     |    If your Melda Installer can't connect to the internet, try the offline installation, or run the installer with a different wine runner. I ran the installer with soda-9.0-1, and then switched back.   |
+|     ✅  |  Medium  |Fabfilter Bundle            |Fabfilter        |   4.10     |    -  |
+|     ✅  | Medium   |Portal            |Output        |   1.0.1     |    -  |
+
+
+## MINOR VISUAL GLITCHES
+
+| Recommendation | Testing | Name | Developer | Plugin Version  |Notes |
+|------------|----|------------------------|----------|--------|-------|
+|     ✅    |High    |All Valhalla Plugins            |valhalladsp        |-|    Some weird visuals with drop down menus on some plugins  |
+|     ✅    |High    |OTT            |Xfer        |   1.37     |    Plugin window FPS is definitely lower than 60fps. Still works reliably   |
+|     ✅     | Low  |Purity            |Sonic Cat        |   1.4.3    |     Plugin window FPS is definitely lower than 60fps. Seems to work fine otherwise.   |
+|     ✅     | Low  |Pitchmap            |Zynaptiq        |   1.7    |Plugin hover tooltips sometimes dont appear, and sometimes when they appear they get stuck on the screen for a bit. Works perfectly otherwise     |
+
+
+## REQUIRES TWEAKING WINE OR OTHER TRICKS
+
+| Recommendation | Testing | Name | Developer | Plugin Version  |Notes |
+|------------|----|------------------------|----------|--------|-------|
+|     ✅    |Low    |Soothe2            |Oeksound        |1.1.2| Install mfc42 as a dependency if you get an error when launching the installer. Click the opengl checkbox in the settings to stop the plugin GUI from flashing |
+|     ➖    |Low    |Hypersonic 2            |Steinberg        |2.0.0.600|   Plugin is 32bit -> [Requires changing a registry entry in wine](---) This plugin is very old and has instablility even on windows. Though funnily enough it seems to work better on wine |
+|     ❌    |Low    |Serum 1            |Xfer        |1.368|[Add dll override d2d1.dll (native) to stop FL from crashing when opening it](---). I do not recommend doing this though, because it breaks a huge amount of other plugins. So only if you really need serum and dont care about other plugins |
+
+
+## SLOW / VERY LAGGY
+| Recommendation | Testing | Name | Developer | Plugin Version  |Notes |
+|------------|----|------------------------|----------|--------|-------|
+|  ➖   |   Low  |Zenology            |Roland        |   2.02     |    Takes 20 seconds to open, and freezes FL studio for that whole time. Same for deleting the plugin, but for 5 seconds. Plugin text seems to not have anti-aliasing, and generally looks uglier than on windows. Scaling the window by dragging the border is broken, and instantly snaps to the smallest size. Seems to work fine otherwise.    |
+|  ❌    |  -  |AutoTune            |Antares        |   Various     |    Every version I've tried is very laggy. Takes a long time to open (like 20 sec), and the GUI is extremely laggy to the point its unusable. The audio processing itself seems to work.    |
+
+## UNSTABLE / UNRELIABLE / CRASHING
+| Recommendation | Testing | Name | Developer | Plugin Version  |Notes |
+|------------|----|------------------------|----------|--------|-------|
+|     ➖   | High |Soundtoys Bundle            |Soundtoys        |   -     | Older versions of these (🏴‍☠️) seem to be a bit unstable, and crash frequently. The up to date VST3 versions seem to be much more stable, so if you are going to install, install them. |
+|     ❌   | - |Serum 2            |Xfer        |   2.0.23     |    Opening wavetable editor crashes FL. Wavetables, LFOs, Envelopes and filters have missing anti-aliasing and are laggy. Most other features work, but there is a general feeling of instability in the plugin.  |
+|     ❌   | - |Pianoteq 9            |Modartt        |   -     |    Crashes FL when opening  |
+
+
+
