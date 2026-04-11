@@ -1,7 +1,9 @@
 # FL STUDIO WINE VST PLUGIN COMPATIBILITY LIST
+### This list is still work in progress, many plugins not tested. 
 I though it would be useful to have this data in a single place instead of having to scour through forums and reddit.
 
-**Work in progress.** I might change the rating system and other stuff later, didn't put too much thought into it tbh.
+
+I might change the rating system and other stuff later, didn't put too much thought into it tbh.
 
 (as a sidenote, this is just my experience. I have found wine to sometimes be inconsistent between different machines and distros. You should expect a similar experience as listed here, but your mileage may still vary.)
 
