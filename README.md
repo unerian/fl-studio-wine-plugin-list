@@ -42,26 +42,28 @@ The installers for the plugins can often be as big of an issue as the plugin its
 
 - Low - Basically just first impressions. Take these with a grain of salt.
 
-## WORKS PERFECTLY 
+## WORKS WELL
 
 | Recommendation | Testing amount | Name  | Plugin Version  |Notes |
 |------------|----|------------------------|--------|-------|
-|     ✅    |     High  |Vital            |   1.5.5     |    Pre wine 11 versions cause GUI flickering. Use wine 11 or newer  |
-|     ✅|     High        |KHS Essentials Effects Pack            |   2.4.6     |    -  |
+|     ✅⭐    |     High  |Vital            |   1.5.5     |    Pre wine 11 versions cause GUI flickering. Use wine 11 or newer  |
+|     ✅⭐|     High        |KHS Essentials Effects Pack            |   2.4.6     |    -  |
+|     ✅⭐|     High        |Reveal Sound Spire                    |   1.5.19-x64     |    -  |
 |     ✅|     High        |Devious Machines Infiltrator 2                    |   2.4.7        | -  |
-|     ✅|     High        |Reveal Sound Spire                    |   1.5.19-x64     |    -  |
 |     ✅  | Medium   |Melda MFreeFXBundle                    |   17.08     |    If your Melda Installer can't connect to the internet, try the offline installation, or run the installer with a different wine runner. I ran the installer with soda-9.0-1, and then switched back.   |
-|     ✅  |  Medium  |Fabfilter Bundle            |   4.10     |    -  |
-|     ✅  | Medium   |Output Portal                    |   1.0.1     |    -  |
-|     ✅  | Low   |CableGuys ShaperBox 3                   |   3.6.0     |    -  |
+|     ✅  |  Medium  |Fabfilter Bundle            |   4.10     |    Works fine, and I have also heard from others that these work well. Not much personal experience yet  |
+|     ✅  | Medium   |Output Portal                    |   1.0.1     |    Seems to work without issue, haven't done much testing yet though.  |
+|     ✅  | Low   |CableGuys ShaperBox 3                   |   3.6.0     |    Seems to work without issue, haven't done much testing yet though.  |
+|     ✅  | Low   |XLN Audio RC-20 Retro Color                   |   1.5.1     |    All installation methods were a bad experience. Eventually managed to get installed through the official installer. If it doesn't connect to the internet, make sure you don't have a VPN on, or try other wine runners. Plugin itself seems to work without issue, haven't done much testing yet though.  |
+|     ✅  | Low   |XLN Audio Addictive Keys                   |   1.7.3     |    See RC-20 for installer tips. Plugin itself seems to work without issue, haven't done much testing yet though.  |
 
 
 ## MINOR VISUAL GLITCHES
 
 | Recommendation | Testing amount | Name | Plugin Version  |Notes |
 |------------|----|------------------------|--------|-------|
-|     ✅    |High    |All Valhalla Plugins            |-|    [Some weird visuals with drop down menus on some plugins](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/valhalla_dropdown.png). Runs very stable generally.  |
-|     ✅    |High    |Xfer OTT            |   1.37     |    Plugin window FPS is definitely lower than 60fps. Still works reliably   |
+|     ✅⭐    |High    |All Valhalla Plugins            |-|    [Some weird visuals with drop down menus on some plugins](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/valhalla_dropdown.png). Runs very stable generally.  |
+|     ✅⭐    |High    |Xfer OTT            |   1.37     |    Plugin window FPS is definitely lower than 60fps. Still works reliably   |
 |     ✅     | Low  |Sonic Cat Purity            |   1.4.3    |     Plugin window FPS is definitely lower than 60fps. Seems to work fine otherwise.   |
 |     ✅     | Low  |Zynaptiq Pitchmap                    |   1.7    |[Plugin hover tooltips sometimes dont appear, and sometimes when they appear they get stuck on the screen for a bit](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/pitchmap_tooltip.png). Works perfectly otherwise     |
 
@@ -69,7 +71,7 @@ The installers for the plugins can often be as big of an issue as the plugin its
 
 | Recommendation | Testing amount | Name | Plugin Version  |Notes |
 |------------|----|------------------------|--------|-------|
-|     ➖    |Low    |Arturia Analog Lab V            |5.12.2|  [Whole plugin GUI flashes and flickers when interacting with or moving the plugin window](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/analoglab.md). Enabling "Detached" in the top left drop down menu of the FL wrapper fixes most of these issues. All sounds/other functionality seems to work fine and the plugin feels usable.   |
+|     ➖    |Low    |Arturia Analog Lab V            |5.12.2|  [Whole plugin GUI flashes and flickers when interacting with or moving the plugin window](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/analoglab.md). Enabling "Detached" in the top left drop down menu of the FL wrapper fixes most of these issues. All sounds/other functionality seems to work fine and the plugin feels usable, just the flashing is an eyesore.   |
 
 ## REQUIRES TWEAKING WINE OR OTHER TRICKS
 | Recommendation | Testing amount | Name | Plugin Version  |Notes |
@@ -79,10 +81,11 @@ The installers for the plugins can often be as big of an issue as the plugin its
 |     ❌    |Low    |Xfer Serum 1                    |1.368|[Add dll override d2d1.dll (native) to stop FL from crashing when opening it](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/d2d1.png). I do not recommend doing this though, because it breaks a huge amount of other plugins. So only if you really need serum and dont care about other plugins |
 
 
-## SLOW / VERY LAGGY
+## SLOW 
 | Recommendation | Testing amount | Name | Plugin Version  |Notes |
 |------------|----|------------------------|--------|-------|
 |  ➖   |   Low  |Roland Zenology                    |   2.02     |    Takes 20 seconds to open, and freezes FL studio for that whole time. Same for deleting the plugin, but for 5 seconds. Plugin text seems to not have anti-aliasing, and generally looks uglier than on windows. Scaling the window by dragging the border is broken, and instantly snaps to the smallest size. Seems to work fine otherwise.    |
+|  ➖   |   Low  |XLN Audio Addictive Drums 2                    |   2.9.0     | Plugin works, but takes a long time to open, and the UI is a bit sluggish.  Disabling OpenGL in UI&Scaling settings seems to make it more stable so its probably fine. Crashed on me once in like 5 minutes of using with OpenGL, hasn't crashed without it yet. Generally the older UI versions of XLN plugins work better, so I would prefer those. I think there is a version of addictive drums with that UI as well.   |
 |  ❌    |  -  |Antares AutoTune                    |   Various     |    Every version I've tried is very laggy. Takes a long time to open (like 20 sec), and the GUI is extremely laggy to the point its unusable. The audio processing itself seems to work.    |
 
 ## UNSTABLE / UNRELIABLE / CRASHING
