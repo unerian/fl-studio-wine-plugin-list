@@ -65,6 +65,11 @@ The installers for the plugins can often be as big of an issue as the plugin its
 |     ✅     | Low  |Sonic Cat Purity            |   1.4.3    |     Plugin window FPS is definitely lower than 60fps. Seems to work fine otherwise.   |
 |     ✅     | Low  |Zynaptiq Pitchmap                    |   1.7    |Plugin hover tooltips sometimes dont appear, and sometimes when they appear they get stuck on the screen for a bit. Works perfectly otherwise     |
 
+## MAJOR VISUAL GLITCHES
+
+| Recommendation | Testing | Name | Plugin Version  |Notes |
+|------------|----|------------------------|--------|-------|
+|     ➖    |Low    |Arturia Analog Lab V            |5.12.2|  Whole plugin GUI flashes and flickers when interacting with or moving the plugin window. Enabling "Detached" in the top left drop down menu of the FL wrapper fixes most of these issues. All sounds/other functionality seems to work fine and the plugin feels usable.   |
 
 ## REQUIRES TWEAKING WINE OR OTHER TRICKS
 | Recommendation | Testing | Name | Plugin Version  |Notes |
