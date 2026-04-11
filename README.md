@@ -5,7 +5,7 @@ I though it would be useful to have this data in a single place instead of havin
 
 I might change the rating system and other stuff later, didn't put too much thought into it tbh.
 
-(as a sidenote, this is just my experience. I have found wine to sometimes be inconsistent between different machines and distros. You should expect a similar experience as listed here, but your mileage may still vary.)
+(as a sidenote, this is just my experience. I have found wine to sometimes be inconsistent between different machines and distros. You should expect a similar experience as listed here, but **your mileage may/will vary**.)
 
 This list is specifically for running plugins with FL studio, so **it might not accurately apply to other software that also uses wine** (such as yabridge).
 
