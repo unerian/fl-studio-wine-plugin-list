@@ -69,7 +69,7 @@ The installers for the plugins can often be as big of an issue as the plugin its
 
 | Recommendation | Testing | Name | Plugin Version  |Notes |
 |------------|----|------------------------|--------|-------|
-|     ➖    |Low    |Arturia Analog Lab V            |5.12.2|  Whole plugin GUI flashes and flickers when interacting with or moving the plugin window. Enabling "Detached" in the top left drop down menu of the FL wrapper fixes most of these issues. All sounds/other functionality seems to work fine and the plugin feels usable.   |
+|     ➖    |Low    |Arturia Analog Lab V            |5.12.2|  [Whole plugin GUI flashes and flickers when interacting with or moving the plugin window](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/analoglab.md). Enabling "Detached" in the top left drop down menu of the FL wrapper fixes most of these issues. All sounds/other functionality seems to work fine and the plugin feels usable.   |
 
 ## REQUIRES TWEAKING WINE OR OTHER TRICKS
 | Recommendation | Testing | Name | Plugin Version  |Notes |
