@@ -7,11 +7,14 @@ I though it would be useful to have this data in a single place instead of havin
 
 This list is specifically for running plugins with FL studio, so it might not accurately apply to other software that also uses wine (such as yabridge).
 
+The installers for the plugins can often be as big of an issue as the plugin itself. For example, a plugin might work perfectly, but the installer may be broken. This is why you might get differing results depending on if you use the official installer vs unofficial installers, such as pirated ones. 
+
+
 **All plugins tested on (unless stated otherwise):**
 
 - Ubuntu 24.04.4 LTS x86_64
 - GNOME 46.0 Wayland
-
+- Bottles 63.2
 - FL STUDIO 25.2.5 [5319]
 
 **Bottles settings:**
