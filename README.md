@@ -40,7 +40,7 @@ The installers for the plugins can often be as big of an issue as the plugin its
 
 - Medium - Tested for some time, but haven't put like 50+ hours of usage into it, so I cannot guarantee there isn't some rare instablility or bugs.
 
-- Low - Basically just first impressions.
+- Low - Basically just first impressions. Take these with a grain of salt.
 
 ## WORKS PERFECTLY 
 
