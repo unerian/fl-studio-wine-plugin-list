@@ -33,15 +33,14 @@ The installers for the plugins can often be as big of an issue as the plugin its
 
 - ❌ - Not Recommended
 
+  (Ratings based on the VST Plugins themselves, not the installing experience etc.)
+
 **Testing:**
 - High - Tested extensively, This plugin has been a part of my daily rotation, and I have used it for long periods of time 
 
 - Medium - Tested for some time, but haven't put like 50+ hours of usage into it, so I cannot guarantee there isn't some rare instablility or bugs.
 
 - Low - Basically just first impressions.
-
-
-
 
 ## WORKS PERFECTLY 
 
