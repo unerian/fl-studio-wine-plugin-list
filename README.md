@@ -54,6 +54,7 @@ The installers for the plugins can often be as big of an issue as the plugin its
 |     ✅  | Medium   |Melda MFreeFXBundle                    |   17.08     |    If your Melda Installer can't connect to the internet, try the offline installation, or run the installer with a different wine runner. I ran the installer with soda-9.0-1, and then switched back.   |
 |     ✅  |  Medium  |Fabfilter Bundle            |   4.10     |    -  |
 |     ✅  | Medium   |Output Portal                    |   1.0.1     |    -  |
+|     ✅  | Low   |CableGuys ShaperBox 3                   |   3.6.0     |    -  |
 
 
 ## MINOR VISUAL GLITCHES
