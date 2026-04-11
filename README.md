@@ -61,7 +61,7 @@ The installers for the plugins can often be as big of an issue as the plugin its
 
 | Recommendation | Testing amount | Name | Plugin Version  |Notes |
 |------------|----|------------------------|--------|-------|
-|     ✅    |High    |All Valhalla Plugins            |-|    [Some weird visuals with drop down menus on some plugins](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/valhalla_dropdown.png?raw=true). Runs very stable generally.  |
+|     ✅    |High    |All Valhalla Plugins            |-|    [Some weird visuals with drop down menus on some plugins](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/valhalla_dropdown.png). Runs very stable generally.  |
 |     ✅    |High    |Xfer OTT            |   1.37     |    Plugin window FPS is definitely lower than 60fps. Still works reliably   |
 |     ✅     | Low  |Sonic Cat Purity            |   1.4.3    |     Plugin window FPS is definitely lower than 60fps. Seems to work fine otherwise.   |
 |     ✅     | Low  |Zynaptiq Pitchmap                    |   1.7    |[Plugin hover tooltips sometimes dont appear, and sometimes when they appear they get stuck on the screen for a bit](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/pitchmap_tooltip.png). Works perfectly otherwise     |
@@ -77,7 +77,7 @@ The installers for the plugins can often be as big of an issue as the plugin its
 |------------|----|------------------------|--------|-------|
 |     ✅    |Low    |Oeksound Soothe2                    |1.1.2| Install mfc42 as a dependency if you get an error when launching the installer. Click the opengl checkbox in the settings to stop the plugin GUI from flashing |
 |     ➖    |Low    |Steinberg Hypersonic 2                    |2.0.0.600|   Plugin is 32bit -> [Requires changing a registry entry in wine](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/32bitfix.md) This plugin is very old and has instablility even on windows. Though funnily enough it seems to work better on wine |
-|     ❌    |Low    |Xfer Serum 1                    |1.368|[Add dll override d2d1.dll (native) to stop FL from crashing when opening it](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/d2d1.png?raw=true). I do not recommend doing this though, because it breaks a huge amount of other plugins. So only if you really need serum and dont care about other plugins |
+|     ❌    |Low    |Xfer Serum 1                    |1.368|[Add dll override d2d1.dll (native) to stop FL from crashing when opening it](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/d2d1.png). I do not recommend doing this though, because it breaks a huge amount of other plugins. So only if you really need serum and dont care about other plugins |
 
 
 ## SLOW / VERY LAGGY
