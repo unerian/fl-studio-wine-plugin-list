@@ -60,7 +60,7 @@ The installers for the plugins can often be as big of an issue as the plugin its
 
 | Recommendation | Testing | Name | Developer | Plugin Version  |Notes |
 |------------|----|------------------------|----------|--------|-------|
-|     ✅    |High    |All Valhalla Plugins            |valhalladsp        |-|    Some weird visuals with drop down menus on some plugins  |
+|     ✅    |High    |All Valhalla Plugins            |valhalladsp        |-|    [Some weird visuals with drop down menus on some plugins](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/valhalla_dropdown.png?raw=true). Runs very stable generally.  |
 |     ✅    |High    |OTT            |Xfer        |   1.37     |    Plugin window FPS is definitely lower than 60fps. Still works reliably   |
 |     ✅     | Low  |Purity            |Sonic Cat        |   1.4.3    |     Plugin window FPS is definitely lower than 60fps. Seems to work fine otherwise.   |
 |     ✅     | Low  |Pitchmap            |Zynaptiq        |   1.7    |Plugin hover tooltips sometimes dont appear, and sometimes when they appear they get stuck on the screen for a bit. Works perfectly otherwise     |
