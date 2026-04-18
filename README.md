@@ -49,9 +49,9 @@ The installers for the plugins can often be as big of an issue as the plugin its
 |------------|----|------------------------|--------|-------|
 |     ✅⭐    |     High Testing |Vital            |   1.5.5     |    Pre wine 11 versions cause GUI flickering. Use wine 11 or newer  |
 |     ✅⭐|     High Testing        |KHS Essentials Effects Pack            |   2.4.6     |    -  |
-|     ✅⭐|     High Testing        |Reveal Sound Spire                    |   1.5.19-x64     |    -  |
 |     ✅⭐    |High Testing    |All Valhalla Plugins            |-|    [Some weird visuals with drop down menus on some plugins](https://github.com/unerian/fl-studio-wine-plugin-list/blob/main/other/valhalla_dropdown.png). Runs very stable generally.  |
 |     ✅⭐    |High Testing    |Xfer OTT            |   1.37     |    Plugin window FPS is definitely lower than 60fps. Still works reliably   |
+|     ✅|     High Testing        |Reveal Sound Spire                    |   1.5.19-x64     |    Use in "Detached" mode to avoid visual glitches with the plugin  |
 |     ✅|     High Testing        |Devious Machines Infiltrator 2                    |   2.4.7        | -  |
 |     ✅  | Medium Testing   |Melda MFreeFXBundle                    |   17.08     |    If your Melda Installer can't connect to the internet, try the offline installation, or run the installer with a different wine runner. I ran the installer with soda-9.0-1, and then switched back.   |
 |     ✅  |  Medium Testing  |Fabfilter Bundle            |   4.10     |    Works fine, and I have also heard from others that these work well. Not much personal experience yet  |
