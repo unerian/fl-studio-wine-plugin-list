@@ -26,7 +26,7 @@ The installers for the plugins can often be as big of an issue as the plugin its
 - latencyflex-v0.1.1
 
 **Recommended:**
-- ⭐ - Plugins I personally trust highly
+- ⭐ - Plugins I personally trust to work reliably
 
 - ✅ - Recommended
 
